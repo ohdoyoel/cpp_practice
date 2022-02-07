@@ -15,4 +15,28 @@ class string {
   int strlen();                       // 길이 리턴
 };
 
-// 나중에 풀어서 올리겠습니다 ㅠㅠ
+string::string(char c, int n){
+  *str = c * n;
+}
+
+string::string(const char *s) {
+
+}
+
+string::string(const string &s) {
+
+}
+
+string::~string() {
+  // delete
+}
+
+void string::add_string(const string &s) {
+
+}
+
+void string::copy_string(const string &s) {
+
+}
+
+int string::strlen() { return len; }
