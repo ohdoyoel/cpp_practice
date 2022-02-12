@@ -77,3 +77,5 @@ int main() {
     emp_list.print_employee_info();
     return 0;
 }
+
+// 다형성!
