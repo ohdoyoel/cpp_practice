@@ -18,7 +18,7 @@ class C : public A, public B {
     public:
     int c;
     C() : A(), B() { std::cout << "C 생성자 호출" << std::endl; }
-    // A -> B -> C
+    // A -> B -> C, 상속하는 순서대로 실행된다
 };
 
 int main() { C c; }
